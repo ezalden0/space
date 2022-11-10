@@ -1,0 +1,160 @@
+body{
+    height: 100vh;
+    background-image: url("../images/background-home-desktop.jpg");
+}
+
+.navbar-light {
+    background-color: rgba(47,62,87,0.2);
+}
+.navbar-brand {
+    margin-left: 50px;
+    margin-right: 55%;
+}
+
+.space {
+    margin-left: 10%;
+    margin-top: 10%;
+    color: white;
+}
+@media(max-width:750px){
+    
+    body{
+        height: 350px;
+        width: 250px;
+        background-image: url("../images/background-home-mobile.jpg");
+
+    }
+    .navbar{
+        width: 100%;
+    }
+}
+
+/* html2 */
+
+.par p {
+    color: white;
+    margin-top: 5%;
+    margin-left: 22%;
+    margin-bottom: 5%;
+
+}
+
+.mars  {
+    display: flex;
+    align-items: center;
+}
+
+.mars .not  {
+    margin-left: 20%;
+    
+}
+
+.mars .nott {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.mars .nott h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 90px;
+
+}
+
+.mars .nott p {
+    color: #727380;
+}
+
+@media(max-width:750px){
+   body{
+    .image{ background-image: url("../images/background-crew-mobile.jpg");
+   } 
+
+  } 
+/* html3 */
+
+.cr p {
+    color: white;
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+
+.crew {
+    display: flex;
+    align-items: center;
+}
+
+.crew .write {
+
+    margin-left: 10%;
+} 
+
+.crew .write h2 {
+    color: #737373;
+}
+
+.crew .write h1 {
+    color: aliceblue;
+}
+
+.crew .write p {
+    color: #727380;
+}
+
+.crew .imgcr {
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+/* html 4 */
+
+.tec p {
+    color: white;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.tecno {
+    display: flex;
+    align-items: center;
+}
+
+.tecno .wr {
+    margin-left: 10%;
+} 
+
+.tecno p {
+    color: #727380;
+}
+
+.tecno h1 {
+    color: aliceblue;
+}
+
+.tecno .imgtec {
+    margin-right: 10%;
+    margin-left: 20%;
+}
+
+/* spinner for all html */
+
+.spinner {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(214,225,240,0.5);
+    display: flex ;
+    justify-content: space-around ;
+    align-items: center;
+
+}
+
+
+.hide{
+    opacity: 0;
+    visibility: hidden;
+}
